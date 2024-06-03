@@ -3,8 +3,8 @@ import styles from "../styles/Layout.module.css";
 
 function Layout({ children }) {
   return (
-    <div className={styles.container}>
-      <main className={styles.main}>{children}</main>
+    <div className={styles.main}>
+      <main className={styles.description}>{children}</main>
     </div>
   );
 }
