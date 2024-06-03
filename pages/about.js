@@ -7,6 +7,9 @@ function about() {
       <Head>
         <title>about the page</title>
       </Head>
+      <div>
+        <h1>hello About</h1>
+      </div>
     </div>
   );
 }

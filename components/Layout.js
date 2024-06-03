@@ -1,11 +1,19 @@
-import React from "react";
+// import React from "react";
+import Nav from "./nav";
 import styles from "../styles/Layout.module.css";
+import Header from "./Header";
 
 function Layout({ children }) {
   return (
-    <div className={styles.main}>
-      <main className={styles.description}>{children}</main>
-    </div>
+    <>
+      <Nav />
+      <div className={styles.main}>
+        <main className={styles.description}>
+          <Header />
+          {children}
+        </main>
+      </div>
+    </>
   );
 }
 
