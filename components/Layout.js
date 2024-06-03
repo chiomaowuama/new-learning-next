@@ -1,10 +1,10 @@
 import React from "react";
 import styles from "../styles/Layout.module.css";
 
-function Layout(children) {
+function Layout({ children }) {
   return (
     <div className={styles.container}>
-      <main className={styles.main}></main>
+      <main className={styles.main}>{children}</main>
     </div>
   );
 }
