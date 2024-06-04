@@ -7,7 +7,7 @@ function Header() {
       <h1 className={headerStyles.title}>
         <span>WebDev</span>News
       </h1>
-      <h1 className={headerStyles.title}>
+      <h1 className={headerStyles.description}>
         <span>WebDev</span>News
       </h1>
       {/* <p className={headerStyles.title}>
